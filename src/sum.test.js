@@ -1,10 +1,10 @@
-import { sum } from "./sum.js";
-import { test, expect } from "@jest/globals";
+import { recipes } from "./food.js";
+/* import { test, expect } from "@jest/globals"; 
 
 // jest docs for expect "matchers"
 // https://jestjs.io/docs/expect
 
-test("adds 1 + 2 to equal 3", () => {
+ test("adds 1 + 2 to equal 3", () => {
   expect(sum(1, 2)).toBe(3);
 });
 
@@ -24,4 +24,6 @@ test("demo object comparisons", () => {
   const obj2 = { speed: 10, colour: "yellow" };
 
   expect(obj1).toEqual(obj2);
-});
+}); */
+
+console.log("Name is",recipes[0].name);
