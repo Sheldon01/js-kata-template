@@ -7,16 +7,17 @@ const recipes = [{
     rating: 8.5,
     grams: 200, 
     }, {
-    name: "Veyron",
+    name: "Macaroni Cheese",
     rating: 8.3,
     grams: 253,
     }, {
-    name: "Veyron SS",
+    name: "Brownies",
     rating: 8.9,
-    grams: 267,
+    grams: 30,
     }, {
-    name: "Chiron 300+",
-    rating: 9.7,
+    name: "Big Mac",
+    rating: 7.5,
     grams: 304,
     }]
+    
     export { recipes }

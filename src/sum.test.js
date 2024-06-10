@@ -26,4 +26,11 @@ test("demo object comparisons", () => {
   expect(obj1).toEqual(obj2);
 }); */
 
-console.log("Name is",recipes[0].name);
+function logRecipeName(recipes){
+  for (let i = 0; i < recipes.length; i++){
+    let recipeName = recipes[i].name;
+    console.log(recipeName);
+  }
+}
+
+logRecipeName(recipes);
