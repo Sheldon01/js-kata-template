@@ -21,16 +21,21 @@ const bugattis = [{
     }]
     export { bugattis }
 
-    function summarise(bugattis){
+    function summariseAll(bugattis){
+        let bugattiSentenceArray = [];
         for (let i = 0; i < bugattis.length; i++){
           let bugattisName = bugattis[i].name;
           let bugattisRating = bugattis[i].rating;
           let bugattisMph = bugattis[i].mph;
-          console.log(bugattisName + " rating is " + bugattisRating + " and the speed is " + bugattisMph + ".");
+          let bugattiSentence = bugattisName + " rating is " + bugattisRating + " and the speed is " + bugattisMph + "."
+          
+          bugattiSentenceArray.push(bugattiSentence);
+
         }
-      }
+      return bugattiSentenceArray;
+    }
       
-      summarise(bugattis);
+      console.log(summariseAll(bugattis));
 
     
 
