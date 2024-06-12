@@ -20,3 +20,18 @@ const bugattis = [{
     mph: 304,
     }]
     export { bugattis }
+
+    function summarise(bugattis){
+        for (let i = 0; i < bugattis.length; i++){
+          let bugattisName = bugattis[i].name;
+          let bugattisRating = bugattis[i].rating;
+          let bugattisMph = bugattis[i].mph;
+          console.log(bugattisName + " rating is " + bugattisRating + " and the speed is " + bugattisMph + ".");
+        }
+      }
+      
+      summarise(bugattis);
+
+    
+
+    

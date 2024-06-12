@@ -21,3 +21,13 @@ const recipes = [{
     }]
     
     export { recipes }
+
+    function summarise(recipes){
+        for (let i = 0; i < recipes.length; i++){
+          let recipeName = recipes[i].name;
+          console.log(recipeName);
+        }
+      }
+      
+      summarise(recipes);
+

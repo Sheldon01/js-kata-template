@@ -1,4 +1,6 @@
 import { recipes } from "./food.js";
+import { bugattis } from "./cars.js";
+
 /* import { test, expect } from "@jest/globals"; 
 
 // jest docs for expect "matchers"
@@ -34,3 +36,13 @@ function logRecipeName(recipes){
 }
 
 logRecipeName(recipes);
+
+
+function logCarName(bugattis){
+  for (let i = 0; i < bugattis.length; i++){
+    let bugattisName = bugattis[i].name;
+    console.log(bugattisName);
+  }
+}
+
+logCarName(bugattis);
